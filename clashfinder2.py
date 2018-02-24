@@ -3,8 +3,8 @@ from googleapiclient.discovery import build
 from bs4 import BeautifulSoup
 import requests
 
-api_key = 'AIzaSyBIu_ZJ86elyc69_KoXnW7Aoho1ZeBGzBQ'
-cse_id = '003944353991449405587:vtjbgnaurd4'
+api_key = 'API_KEY_GOES_HERE'
+cse_id = 'CUSTOM_SEARCH_ID_GOES_HERE'
 
 
 def google_search(search_term, api_key, cse_id, **kwargs):
